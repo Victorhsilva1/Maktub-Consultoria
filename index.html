@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>Document</title>
+    <title>MAKTUB CONSULTORIA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/assets.css">
 </head>
 
@@ -20,12 +23,12 @@
             <ul>
                 <li><a href="#sobrenos"> SOBRE NÓS </a> </li>
                 <li> <a href="#nossosservicos"> SERVIÇOS </a> </li>
+                <li> <a href="#nossosparceiros"> PARCEIROS </a> </li>
             </ul>
 
             <div class="opacity">
                 <div class="bloco">
-                    <h1>MAKTUP CONSULTORIA</h1>
-
+                    <h1 class="typing">MAKTUB CONSULTORIA</h1>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -53,16 +56,16 @@
                     <img src="img/Siten.png" alt="Foto da empresa" style="width: 505px;">
                 </div>
                 <div class="col-md-3 col-sm-3 offset-md-2 offset-sm-2">
-                    
 
 
-                        <p style=" text-align: justify;" class="fontsize">
-                            Somos uma consultoria especializada em transformar a infraestrutura e a segurança do seu
-                            negócio.
-                            Com expertise em várias áreas, oferecemos soluções abrangentes que vão desde conectividade
-                            até
-                            sustentabilidade e proteção.
-                    
+
+                    <p style=" text-align: justify;" class="fontsize">
+                        Somos uma consultoria especializada em transformar a infraestrutura e a segurança do seu
+                        negócio.
+                        Com expertise em várias áreas, oferecemos soluções abrangentes que vão desde conectividade
+                        até
+                        sustentabilidade e proteção.
+
 
                 </div>
 
@@ -101,7 +104,6 @@
                         <div id="nossosservicos">
                             <H1 class="Titulo"> NOSSOS SERVIÇOS</H1>
                         </div>
-
                     </div>
 
                 </div>
@@ -111,8 +113,9 @@
                         <div class="card" style="width: 18rem">
                             <img src="img/wifi.jpg" alt="Wifi">
                             <div class="card-body">
-                                <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4" style="font-size: 22px"> WIFI</h5>
-                                <P class="card-text">VENHA CONHECER ESTA REDE DE WIFI BLA BLA BLA BLA BLA BLA BLA BLA
+                                <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> WIFI</h5>
+                                <P class="card-text cards">VENHA CONHECER ESTA REDE DE WIFI BLA BLA BLA BLA BLA BLA BLA
+                                    BLA
                                     BLA
                                 </P>
                                 <button onclick="botaoprodutos()" class="btn btn-primary"> VENHA</A>
@@ -145,11 +148,41 @@
             </div>
 
             <br>
-            <div>
-                <h1 class="Titulo"> <strong> NOSSOS PARCEIROS</strong>
-                </h1>
-            </div>
-            <div class="Titulo">(11) 981147227
+            <div> 
+            <div id="nossosparceiros">
+                <div>
+                    <h1 class="conheca"> NOSSOS PARCEIROS
+                    </div>
+                </div>
+                    </h1>
+                    <img src="img/Parceiros.jpg" alt="Parceiros da marktub " style="width: 42%; margin-left: 510px; margin-top: 60px;">
+                </div>
+                <div> 
+                    <div class="container-fluid">
+                        <div class="jumbotron conosco">
+                    <h1 class="jumba" style="margin-top: 100px;">
+                       ENTRE EM CONTATO 
+                    </h1>
+                    <br><br><br><br>
+                    <h2 style="margin-left: 100px;">@maktubconsultoria_</h2>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <h2 style="margin-left: 100px;"> (11) 981147227</h2>
+                    <br>
+                    <br>
+                    <br> 
+                    <div>
+                         <h2 style="margin-left: 100px;" >comercial@maktubconsulting.com.br</h2>
+                    </div>
+                  
+                    </div>
+                </div>
+                </div>
+            
+        
+                <a href="Politica de privacidade.html" target="_blank"; class="politica"> Politica de privacidade</a>
 
             </div>
         </div>
@@ -179,7 +212,7 @@
                 var nome = localStorage.getItem("nomes");
                 var segundonome = localStorage.getItem("segundosnomes");
 
-                var mensagem = `Olá! meu nome é ${nome} ${segundonome}`;
+                var mensagem = `Olá! meu nome é ${nome} ${segundonome} gostaria de falar com a Maktub Consultoria`;
 
                 window.open(`https://api.whatsapp.com/send?phone=+5511994476842&text=${mensagem}`, '_blank');
             }

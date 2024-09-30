@@ -4,6 +4,12 @@
     margin-top: 70px;
 }
 
+.Politica {
+    font-size: 21px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 360px
+}
 .Sobre {
     font-size: 55px;
     color: azure;
@@ -11,8 +17,22 @@
     margin-left: 805px;
     
 }
+
+.Conheca {
+        font-size: 44px;
+        color: azure;
+        font-family: fantasy;
+        margin-left: 745px;
+        
+}
 .negrito {
     font-weight: 750;
+}
+
+  
+.cards {
+    font-size: 15px;
+    color: black;
 }
 
 .Linguica {
@@ -28,6 +48,40 @@
 body {
     background-color: rgba(23, 35, 60, 39)
 }
+
+
+
+bobi {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .typing {
+    font-size: 4rem;
+    border-right: 1px solid;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1;
+    animation: typing 2.8s steps(22) forwards, blink 0.75s infinite;
+  }
+
+  @keyframes typing {
+    to { width: 20ch; }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+
+
+
+
+
+
 
 .margem {
     width: 425px;
@@ -92,5 +146,27 @@ ul li a {
 ul li a:hover {
     color: gray;
     text-decoration: none;
+}
+
+.conosco {
+    
+    background-image:url('../img/SOCIAL\ MIDIA\ MAKTUB.jpg');
+    background-color: rgba(58, 58, 58, 0.1); 
+    color: aliceblue;
+    background-repeat: no-repeat;
+    height: 100%;
+  
+}
+
+.jumba {
+        font-size: 64px;
+        color: azure;
+        font-family: fantasy;
+        margin-left: 145px;
+        margin-top: 10px
+}
+
+.descrition {
+ font-size: 17px;
 }
 
