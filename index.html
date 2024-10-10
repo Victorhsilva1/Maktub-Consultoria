@@ -21,12 +21,12 @@
 </head>
 
 
-<body style="font-family: Montserrat">
+<body >
     <div class="container-fluid">
         <header class="jumbotron header">
             <nav>
                 <ul>
-                    <img src="img/maktub-removebg-preview.png" alt="Logo" style="height: 120px; margin-right: 420px; margin-left: 30px;">
+                    <img src="img/maktub-removebg-preview.png" alt="Logo" class="logo">
                     <li><a href="#sobrenos"> SOBRE NÓS </a> </li>
                     <li> <a href="#nossosservicos"> SERVIÇOS </a> </li>
                     <li> <a href="#nossosparceiros"> PARCEIROS </a> </li>
@@ -34,10 +34,9 @@
                 </ul>
             </nav>
 
-
             <div class="opacity">
-                <div class="bloco">
-                    <h1 class="typing" style="margin-top: 160px;">MAKTUB CONSULTORIA</h1>
+                <div class="block">
+                    <h1 class="typing" >MAKTUB CONSULTORIA</h1>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -50,41 +49,33 @@
                     </div>
                 </div>
 
-                <button type="button" class="btn btn-primary btn-lg botao" data-toggle="modal"
-                    data-target="#exampleModal" onclick="clicounobotao()">CADASTRE-SE</button>
-
-
+                <button type="button" class="btn btn-primary btn-lg button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="clicounobotao()">CADASTRE-SE</button>
             </div>
         </header>
         <main>
-            <div>
-                <p class="SOBRE" id="sobrenos">
-                    SOBRE NÓS</p>
-            </div>
             <div class="row marginTop">
-                <div class="col-md-2 col-sm-2 offset-md-1 offset-sm-1">
-                    <img src="img/Siten.png" alt="Foto da empresa" style="width: 505px;">
+                <p class="about" id="sobrenos">
+                    SOBRE NÓS</p>
+                <div class="col-md-5 col-sm-2 offset-md-1 offset-sm-1">
+                    <img src="img/Siten.png" alt="Foto da empresa" class="bussines">
                 </div>
-                <div class="col-md-4 col-sm-4 offset-md-3 offset-sm-3">
-
-
-
-                    <p style=" text-align: justify;" class="fontsize">
+                <div class="col-md-4 col-sm-4 offset-md-1 offset-sm-3">
+                    <p class="fontsize">
                         Somos uma consultoria especializada em transformar a infraestrutura e a segurança do seu
                         negócio.
                         Com expertise em várias áreas, oferecemos soluções abrangentes que vão desde conectividade
                         até
                         sustentabilidade e proteção.
-
-
                 </div>
 
-                <br> <br><br><br>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-4 offset-md-2 offset-sm-2">
+                <div class="offset-md-2 col-md-4 col-sm-6 escondeDesk">
+                    <img src="img/$2g5menwsm1b.png" alt="Foto de consultorias" class="margin">
+                </div>
+                <div class="col-md-4 col-sm-4 offset-md-1 offset-sm-2">
 
-                    <p style="text-align: justify;" class="fontsize"> Nosso diferencial está na capacidade de
+                    <p class="fontsize"> Nosso diferencial está na capacidade de
                         oferecer um atendimento personalizado e
                         completo, assegurando que cada solução
                         seja implementada com a máxima
@@ -94,15 +85,15 @@
                         negócio, oferecendo sempre as melhores
                         soluções do mercado .</p>
                 </div>
-                <div class="col-md-6 col-sm-6 ">
-                    <img src="img/$2g5menwsm1b.png" alt="Foto de consultorias" class="margem" style="width: 426px; margin-left: 90px;">
+                <div class="offset-md-2 col-md-4 col-sm-6 escondeMobile">
+                    <img src="img/$2g5menwsm1b.png" alt="Foto de consultorias" class="margin">
                 </div>
             </div>
 
             <div class="row marginTop">
                 <div class="col-md-6 col-sm-6 offset-md-4 offset-sm-4">
-                    <h1 class="Linguica"> <cite> “Nos entregue seu
-                            problema <br> nós
+                    <h1 class="quote"> <cite> “Nos entregue seu
+                            problema  nós
                             devolvemos a solução”</cite>
                     </h1>
                 </div>
@@ -115,149 +106,145 @@
                             <H1 class="Service"> NOSSOS SERVIÇOS</H1>
                         </div>
                     </div>
-
                 </div>
-                <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
+                <div id="myCarousel" class="carousel slide container carouselHeight" data-bs-ride="carousel">
                     <div class="carousel-inner w-100">
-                      <div class="carousel-item active">
+                      <div class="carousel-item active fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card" >
-                                <img src="img/wifi.jpg" alt="Wifi" style="height: 170px;">
+                            <div class="card fixHeightCarousel" >
+                                <img src="img/wifi.jpg" alt="Wifi"; class="imagemcar">
                                 <div class="card-body">
                                     <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> WIFI</h5>
                                     <P class="card-text cards">O Wi-Fi permite conexão sem fio à internet, oferecendo praticidade, rapidez e acesso fácil em diversos dispositivos e ambientes.
                                     </P>
-                                    <button onclick="botaoprodutos('Wifi', 'Cobertura de wifi')" class="btn btn-primary"> CONFIRA </A>
+                                    <button onclick="botaoprodutos('Wifi', 'Cobertura de wifi')" class="btn btn-primary below"> CONFIRA </A>
                                 </div>
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item  fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card" >
-                                <img src="img/dedicado.jfif" alt="internet dedicada" style="height: 170px;">
+                            <div class="card fixHeightCarousel" >
+                                <img src="img/dedicado.jfif" alt="internet dedicada"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " style="margin-left: 40px;"> INTERNET DEDICADA</h5> 
+                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> INTERNET DEDICADA</h5> 
                                     <P class="card-text cards">A internet dedicada fornece uma conexão exclusiva e estável, adequada para empresas que exigem alta largura de banda.
                                     </P>
-                                    <button onclick="botaoprodutos('Internet dedicada, Cobertura de conexão exclusiva')" class="btn btn-primary"> CONFIRA</A>
+                                    <button onclick="botaoprodutos('Internet dedicada' , 'Cobertura de conexão exclusiva')" class="btn btn-primary below"> CONFIRA</A>
                                 </div>
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item  fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card" >
-                                <img src="img/larga.jpg" alt="Banda Larga" style="height: 170px;">
+                            <div class="card fixHeightCarousel" >
+                                <img src="img/larga.jpg" alt="Banda Larga"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " style="margin-left: 60px;"> BANDA LARGA </h5>
+                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> BANDA LARGA </h5>
                                     <P class="card-text cards">A banda larga para empreendimentos e condomínios garante internet rápida, otimiza gestão e segurança, e melhora a produtividade.
                                     </P>
-                                    <button onclick="botaoprodutos('Banda Larga, Internet melhor otimização')" class="btn btn-primary"> CONFIRA </A>
+                                    <button onclick="botaoprodutos('Banda Larga' , 'Internet melhor otimização')" class="btn btn-primary below"> CONFIRA </A>
                                 </div>
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item  fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card" >
-                                <img src="img/Solan.png" alt="Energia Solar" style="height: 170px;">
+                            <div class="card fixHeightCarousel" >
+                                <img src="img/Solan.png" alt="Energia Solar"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " style="margin-left: 54px;"> ENERGIA SOLAR </h5>
+                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " > ENERGIA SOLAR </h5>
                                     <P class="card-text cards"> A energia solar é uma fonte renovável que gera eletricidade a partir da luz solar, reduzindo custos e impactos ambientais.
                                     </P>
-                                    <button onclick="botaoprodutos('Energia Solar, fonte de eletricidade renovável')" class="btn btn-primary">CONFIRA </A>
+                                    <button onclick="botaoprodutos('Energia Solar' , 'fonte de eletricidade renovável')" class="btn btn-primary below">CONFIRA </A>
                                 </div>
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card" >
-                                <img src="img/nene.jpg" alt="Comunicação Visual" style="height: 170px;">
+                            <div class="card fixHeightCarousel" >
+                                <img src="img/nene.jpg" alt="Comunicação Visual"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " style="margin-left: 16px;"> COMUNICAÇÃO VISUAL</h5>
+                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> COMUNICAÇÃO VISUAL</h5>
                                     <P class="card-text cards">A comunicação visual usa elementos gráficos para transmitir mensagens de forma clara e atraente, sendo essencial em marketing e design.
                                     </P>
-                                    <button onclick="botaoprodutos('Comunicação Visual, elementos gráficos')" class="btn btn-primary"> CONFIRA</A>
+                                    <button onclick="botaoprodutos('Comunicação Visual','elementos gráficos')" class="btn btn-primary below"> CONFIRA</A>
                                 </div>
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item  fixHeightCarousel">
                         <div class="col-md-3 col-sm-3">
-                            <div class="card">
-                                <img src="img/sistema-alarme-incendio-01.webp" alt="Sistema alarme de incendio" style="height: 170px;">
+                            <div class="card fixHeightCarousel">
+                                <img src="img/sistema-alarme-incendio-01.webp" alt="Sistema alarme de incendio"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4" style="margin-left: 1px;"> SOLUÇÕES PARA INCÊNDIO </h5>
+                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4" > SOLUÇÕES PARA INCÊNDIO </h5>
                                     <P class="card-text cards">
                                         Soluções para incêndio envolvem equipamentos de combate e a realização de manutenção para assegurar a segurança de todos.
                                     </P>
-                                    <button onclick="botaoprodutos('Soluções para incêndio, equipamentos de combate ao incêncio')" class="btn btn-primary">CONFIRA</A>
+                                    <button onclick="botaoprodutos('Soluções para incêndio','equipamentos de combate ao incêncio')" class="btn btn-primary below">CONFIRA</A>
                                 </div>
                             </div>
                         </div>
                       </div>
 
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="background-color: rgba(255,255,255,0.2);">
-                        <i class="fa-solid fa-arrow-left fa-2x" style="margin-bottom: 100px;color: white;"></i>
+                    <button class="carousel-control-prev background" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" >
+                        <i class="fa-solid fa-arrow-left fa-2x iconbutton" ></i>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="background-color: rgba(255,255,255,0.2);">
-                        <i class="fa-solid fa-arrow-right fa-2x" style="margin-bottom: 100px;color: white;"></i>
+                    <button class="carousel-control-next background" type="button" data-bs-target="#myCarousel" data-bs-slide="next" >
+                        <i class="fa-solid fa-arrow-right fa-2x  iconbutton"></i>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
             </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Cadastro efetuado</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            Salvo com sucesso
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cadastro efetuado com sucesso</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Salvo com sucesso
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
                 </div>
             </div>
+            </div>
+        </div>
 
             <br>
-            <div>
+            <div class="partners">
                 <div id="nossosparceiros">
                     <div>
-                        <h1 class="conheca"> NOSSOS PARCEIROS
+                        <h1 class="meet"> NOSSOS PARCEIROS
                     </div>
                 </div>
                 </h1>
-                <img src="img/Parceiros.jpg" alt="Parceiros da marktub "
-                    style="width: 42%; margin-left: 520px; margin-top: 60px;">
+                <img src="img/Parceiros.jpg" alt="Parceiros da marktub" class="imgPartners"
+                   >
             </div>
             <div>
                 <div class="container-fluid">
-                    <div class="jumbotron conosco">
+                    <div class="jumbotron us">
                         
-                        <h1 class="jumba" style="margin-top: 100px;" id="contato">
+                        <h1 class="jumba" id="contato textMinor">
                             ENTRE EM CONTATO
                         </h1>
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                                <i f class="fa-brands fa-instagram fa-4x icones"></i>
+                                <a href=""><i class="fa-brands fa-instagram fa-4x icones"></i></a>
                             </div>
 
                             <div class="col-md-1 col-sm-1">
-                                <h2>@maktubconsultoria_</h2>
+                                <h2 class="textMinor">@maktubconsultoria_</h2>
                             </div>
 
 
@@ -266,20 +253,20 @@
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                                <i class="fa-brands fa-whatsapp fa-4x icones"></i>
+                                <a href=""></a><i class="fa-brands fa-whatsapp fa-4x icones"></i>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <h2> (11) 981147227</h2>
+                                <h2 class="textMinor"> (11) 981147227</h2>
                             </div>
                         </div>
 
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                                <i class="fa-solid fa-square-envelope fa-4x icones"></i>
+                               <a href="mailto:leonardo-r-castellano@outlook.com"> <i class="fa-solid fa-square-envelope fa-4x icones"></i></a>
                             </div>
                             <div class="col-md-1 col-sm-1">
-                                <h2> comercial@maktubconsulting.com.br</h2>
+                                <h2 class="textMinor"> comercial@maktubconsulting.com.br</h2>
                             </div>
 
                         </div>
@@ -287,81 +274,20 @@
                 </div>
             </div>
         </main>
+        <footer>
             <div class="row">
-                <a href="Politica de privacidade.html" target="_blank" ; class="politica"> POLÍTICA DE PRIVACIDADE</a>
-            </div>
+            <a href="Politica de privacidade.html" target="_blank" ; class="policy"> POLÍTICA DE PRIVACIDADE</a>
+        </div> 
+    </footer>
+            
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-        <script>
-            async function variaveisAmbiente(){
-                try{
-                    var arquivoTexto = await fetch('settings.txt');
-                    var textoArquivo = await arquivoTexto.text();
-                    var chaveValor = textoArquivo.split('=');
-                    var telefone = chaveValor[1];
-                    localStorage.setItem('wpp', telefone);
-                }
-                catch(error){
-    
-                }
-            }
-    
-            variaveisAmbiente();
-        </script>
-    <script>
-        function clicounobotao() {
-            var nome = document.getElementById("primeironome");
-            var segundonome = document.getElementById("segundonome");
 
-            localStorage.setItem("nomes", nome.value);
-            localStorage.setItem("segundosnomes", segundonome.value);
-
-            nome.value = "";
-            segundonome.value = "";
-            $('#modal').on('shown.bs.modal', function () {
-                $('#myInput').trigger('focus')
-            })
-        }
-
-
-        function botaoprodutos(tema, descricao) {
-            var nome = localStorage.getItem("nomes");
-            var segundonome = localStorage.getItem("segundosnomes");
-
-            var mensagem = `Olá! meu nome é ${nome} ${segundonome} gostaria de falar com a Maktub Consultoria, sobre o tema ${tema} e a descricao ${descricao}`;
-            var telefone = localStorage.getItem('wpp');
-            window.open(`https://api.whatsapp.com/send?phone=${telefone}&text=${mensagem}`, '_blank');
-        }
-    </script>
-    <script>
-        // var myCarousel = document.querySelector('#myCarousel')
-// var carousel = new bootstrap.Carousel(myCarousel, {
-//   interval: 100000
-// })
-
-$('.carousel .carousel-item').each(function(){
-    var minPerSlide = 4;
-    var next = $(this).next();
-    if (!next.length) {
-    next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-    for (var i=0;i<minPerSlide;i++) {
-        next=next.next();
-        if (!next.length) {
-        	next = $(this).siblings(':first');
-      	}
-        
-        next.children(':first-child').clone().appendTo($(this));
-      }
-});
-
-    </script>
-    
+    <script src="./js/maktub.js"></script>
 </body>
 
 </html>
