@@ -264,6 +264,31 @@ body {
   display: block;
 }
 
+.typing {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.fontsize {
+ font-size: 17px;
+ text-align: start;
+ margin: 20px;
+}
+
+.margin {
+margin-top: 20px;
+align-items: center;
+}
+
+.bussines {
+  align-items: center;
+}
+
+.quote {
+ text-align: center;
+ margin-top: 40px;
+}
+
 .escondeMobile {
   display: none;
 }
