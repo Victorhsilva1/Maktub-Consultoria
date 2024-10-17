@@ -12,6 +12,15 @@ nav {
 
 }
 
+a {
+  text-decoration: none; 
+  color: white;
+}
+
+a:hover {
+  color: rgb(105, 105, 105); 
+}
+
 nav ul {
   list-style: none;
  
@@ -53,6 +62,16 @@ section {
 }
 
 .Policy {
+  font-size: 21px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;  
+  align-items: center; 
+}
+
+.Policycel {
   font-size: 21px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -160,6 +179,10 @@ body {
 
 }
 
+.margenscel {
+  margin-top: 10px;
+}
+
 .iconbutton {
   margin-bottom: 100px;color: white;
 }
@@ -218,7 +241,7 @@ body {
   margin-bottom: 60px;
 }
 
-.us {
+.usdesk {
   background-size: 120% 100%;
   background-image: url('../img/SOCIAL\ MIDIA\ MAKTUB.jpg');
   background-color: rgba(58, 58, 58, 0.1);
@@ -228,18 +251,36 @@ body {
 
 }
 
+
+.uscel {
+  background-size: 100% 100%;
+  background-image: url(/img/botc.jpg);
+  background-color: rgba(58, 58, 58, 0.1);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  height: 15%;
+}
+
+
 .textMinor {
   font-size: 1.5rem;
 }
 
 .jumba {
   font-size: 64px;
-
   color: azure;
   font-family: fantasy;
   text-align: center;
-  margin-right: 200px;
+  margin-right: 700px;
   margin-top: 10px
+}
+
+.jumbacrl {
+  font-size: 58px;
+  color: azure;
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 50px
 }
 
 .descrition {
@@ -289,6 +330,10 @@ align-items: center;
  margin-top: 40px;
 }
 
+.usdesk {
+  display: none;
+}
+
 .escondeMobile {
   display: none;
 }
@@ -321,11 +366,21 @@ align-items: center;
     display: block;
    }
 
+   .Policycel {
+    display: none;
+   }
    .escondeDesk {
     display: none;
   }
   
+  .uscel {
+    display: none;
+  }
  
+  .jumbacrl {
+    display: none;
+  }
+
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next,
   .carousel-item-next:not(.carousel-item-start) {
