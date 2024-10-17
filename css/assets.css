@@ -128,7 +128,7 @@ section {
 .quote {
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .imgPartners {
@@ -165,12 +165,12 @@ body {
 }
 
 .bussines {
-  width: 100%;
+  width: 80%;
 }
 
 
 .typing {
-  font-size: 3rem;
+  font-size: 4rem;
   overflow: hidden; 
   word-wrap: break-word;
   margin-top: 190px;
@@ -178,7 +178,7 @@ body {
 }
 
 .margin {
-  width: 100%;
+  width: 80%;
 }
 
 .marginTop {
@@ -219,7 +219,7 @@ body {
 }
 
 .us {
-  background-size: 140% 100%;
+  background-size: 120% 100%;
   background-image: url('../img/SOCIAL\ MIDIA\ MAKTUB.jpg');
   background-color: rgba(58, 58, 58, 0.1);
   color: aliceblue;
