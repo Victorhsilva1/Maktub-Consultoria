@@ -345,11 +345,12 @@ body {
 
 .uscel {
   background-size: 100% 90%;
-  background-image: url(/img/uscell.jpg);
+  background-image: url(/img/uscell.jpg); /* Verifique o caminho */
+  background-color: transparent; /* Remova temporariamente para teste */
   color: aliceblue;
   background-repeat: no-repeat;
-  height: 22%;
-
+  height: 22%; /* Certifique-se de que o contêiner pai tenha altura definida */
+  min-height: 100px; /* Altura mínima para o elemento */
 }
 
 
