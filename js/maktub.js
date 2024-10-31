@@ -30,7 +30,7 @@ async function variaveisAmbiente(){
             var nome = localStorage.getItem("nomes");
             var segundonome = localStorage.getItem("segundosnomes");
 
-            var mensagem = `Olá! meu nome é ${nome} ${segundonome} gostaria de falar com a Maktub Consultoria, sobre o tema ${tema} e a descricao ${descricao}`;
+            var mensagem = `Olá! meu nome é ${nome} ${segundonome} gostaria de falar com a Maktub Consultoria, sobre o tema ${tema} e  ${descricao}`;
             var telefone = localStorage.getItem('wpp');
             window.open(`https://api.whatsapp.com/send?phone=${telefone}&text=${mensagem}`, '_blank');
         }
@@ -58,3 +58,19 @@ $('.carousel .carousel-item').each(function(){
 });
 
 variaveisAmbiente();
+// Seleciona o botão de menu hamburguer e o menu
+const mobileMenu = document.getElementById("mobile-menu");
+const navList = document.querySelector("nav ul.menu");
+const menuLinks = document.querySelectorAll("nav ul li a"); // Seleciona todos os links do menu
+
+// Alterna o menu (abrir/fechar) ao clicar no botão hamburguer
+mobileMenu.addEventListener("click", () => {
+    navList.classList.toggle("active");
+});
+
+// Fecha o menu ao clicar em um dos links
+menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        navList.classList.remove("active");
+    });
+});

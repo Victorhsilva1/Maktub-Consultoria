@@ -25,15 +25,28 @@
         <header class="jumbotron header">
             <nav>
                 <ul>
-                   <a href=""> <img src="img/maktub-removebg-preview.png" alt="Logo" class="logo"> </a> 
-                    <li><a href="#sobrenos"> SOBRE NÓS </a> </li>
-                    <li> <a href="#nossosservicos"> SERVIÇOS </a> </li>
-                    <li> <a href="#nossosparceiros"> PARCEIROS </a> </li>
-                    <li> <a href="#contato">CONTATO</a> </li>
+                   <a href="#fr"> <img src="img/maktub-removebg-preview.png" alt="Logo" class="logo"> </a> 
+                    <li><a href="#sobrenos" class="Nave" > SOBRE NÓS </a> </li>
+                    <li> <a href="#nossosservicos" class="Nave"> SERVIÇOS </a> </li>
+                    <li> <a href="#nossosparceiros" class="Nave"> PARCEIROS </a> </li>
+                    <li> <a href="#contato" class="Nave">CONTATO</a> </li>
                 </ul>
+                <ul class="menu">
+                    <li><a href="#sobrenos" >SOBRE NÓS</a></li>
+                    <li><a href="#nossosservicos">SERVIÇOS</a></li>
+                    <li><a href="#nossosparceiros">PARCEIROS</a></li>
+                    <li><a href="#contatos">CONTATO</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
 
-            <div class="opacity">
+            
+
+            <div class="opacity" id="fr">
                 <div class="block">
                     <h1 class="typing" >MAKTUB CONSULTORIA</h1>
                 </div>
@@ -113,7 +126,7 @@
                             <div class="card fixHeightCarousel" >
                                 <img src="img/wifi.jpg" alt="Wifi"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> WIFI</h5>
+                                    <h5 class="aspx"> WIFI</h5>
                                     <P class="card-text cards">O Wi-Fi permite conexão sem fio à internet, oferecendo praticidade, rapidez e acesso fácil em diversos dispositivos e ambientes.
                                     </P>
                                     <button onclick="botaoprodutos('Wifi', 'Cobertura de wifi')" class="btn btn-primary below"> CONFIRA </A>
@@ -126,7 +139,7 @@
                             <div class="card fixHeightCarousel" >
                                 <img src="img/dedicado.jfif" alt="internet dedicada"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> INTERNET DEDICADA</h5> 
+                                    <h5 class="aspx"> INTERNET DEDICADA</h5> 
                                     <P class="card-text cards">A internet dedicada fornece uma conexão exclusiva e estável, adequada para empresas que exigem alta largura de banda.
                                     </P>
                                     <button onclick="botaoprodutos('Internet dedicada' , 'Cobertura de conexão exclusiva')" class="btn btn-primary below"> CONFIRA</A>
@@ -139,7 +152,7 @@
                             <div class="card fixHeightCarousel" >
                                 <img src="img/larga.jpg" alt="Banda Larga"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> BANDA LARGA </h5>
+                                    <h5 class="aspx"> BANDA LARGA </h5>
                                     <P class="card-text cards">A banda larga para empreendimentos e condomínios garante internet rápida, otimiza gestão e segurança, e melhora a produtividade.
                                     </P>
                                     <button onclick="botaoprodutos('Banda Larga' , 'Internet melhor otimização')" class="btn btn-primary below"> CONFIRA </A>
@@ -152,7 +165,7 @@
                             <div class="card fixHeightCarousel" >
                                 <img src="img/Solan.png" alt="Energia Solar"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 " > ENERGIA SOLAR </h5>
+                                    <h5 class="aspx" > ENERGIA SOLAR </h5>
                                     <P class="card-text cards"> A energia solar é uma fonte renovável que gera eletricidade a partir da luz solar, reduzindo custos e impactos ambientais.
                                     </P>
                                     <button onclick="botaoprodutos('Energia Solar' , 'fonte de eletricidade renovável')" class="btn btn-primary below">CONFIRA </A>
@@ -165,7 +178,7 @@
                             <div class="card fixHeightCarousel" >
                                 <img src="img/nene.jpg" alt="Comunicação Visual"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4 "> COMUNICAÇÃO VISUAL</h5>
+                                    <h5 class="aspx"> COMUNICAÇÃO VISUAL</h5>
                                     <P class="card-text cards">A comunicação visual usa elementos gráficos para transmitir mensagens de forma clara e atraente, sendo essencial em marketing e design.
                                     </P>
                                     <button onclick="botaoprodutos('Comunicação Visual','elementos gráficos')" class="btn btn-primary below"> CONFIRA</A>
@@ -178,7 +191,10 @@
                             <div class="card fixHeightCarousel">
                                 <img src="img/sistema-alarme-incendio-01.webp" alt="Sistema alarme de incendio"; class="imagemcar">
                                 <div class="card-body">
-                                    <h5 class="cold-md-4-sm-4 offset-md-4 offset-sm-4" > SOLUÇÕES PARA INCÊNDIO </h5>
+                                 
+                                        <h5 class="aspx" > SOLUÇÕES PARA INCÊNDIO </h5>
+                               
+                                    
                                     <P class="card-text cards">
                                         Soluções para incêndio envolvem equipamentos de combate e a realização de manutenção para assegurar a segurança de todos.
                                     </P>
@@ -233,13 +249,13 @@
                 <div class="container-fluid">
                     <div class="jumbotron usdesk">
                         
-                        <h1 class="jumba" id="contato textMinor">
+                        <h1 class="jumba" id="contato">
                             ENTRE EM CONTATO
                         </h1>
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                                <a href=""><i class="fa-brands fa-instagram fa-4x icones"></i></a>
+                                <a href="https://www.instagram.com/maktubconsultoria_?igsh=MW9yN3p3eWtydWliaA==" target="_blank">  <i class="fa-brands fa-instagram fa-4x icones"></i></a>
                             </div>
 
                             <div class="col-md-1 col-sm-1">
@@ -252,7 +268,9 @@
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                                <a href=""></a><i class="fa-brands fa-whatsapp fa-4x icones"></i>
+                                <a href="https://wa.me/5511981147227" target="_blank">
+                                    <i class="fa-brands fa-whatsapp fa-4x icones"></i>
+                                </a>
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <h2 class="textMinor"> (11) 981147227</h2>
@@ -262,7 +280,7 @@
 
                         <div class="row margens">
                             <div class="col-md-1 col-sm-1">
-                               <a href="mailto:leonardo-r-castellano@outlook.com"> <i class="fa-solid fa-square-envelope fa-4x icones"></i></a>
+                               <a href="mailto:comercial@maktubconsulting.com.br"> <i class="fa-solid fa-square-envelope fa-4x icones"></i></a>
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <h2 class="textMinor"> comercial@maktubconsulting.com.br</h2>
@@ -274,49 +292,25 @@
             </div>
 
 
-            <h1 class="jumbacrl" id="contato textMinor">
+            <h1 class="jumbacrl" id="contatos">
                 ENTRE EM CONTATO
             </h1>
             <div>
                 <div class="container-fluid">
-                    <div class="jumbotron uscel">
-                        
-                        
+                    <div class="jumbotron uscel row">
 
                         <div class="row margenscel">
-                            <div class="col-md-1 col-sm-1">
-                                <a href=""><i class="fa-brands fa-instagram fa-3x icones"></i></a>
-                            </div>
-
-                            <div class="col-md-1 col-sm-1">
-                                <h2 class="textMinor">@maktubconsultoria_</h2>
-                            </div>
-
-
+                            <div class=>
+                                <a href="https://www.instagram.com/maktubconsultoria_?igsh=MW9yN3p3eWtydWliaA==" target="_blank"> <i class="fa-brands fa-instagram fa-3x icones"></i></a>
+                                
+                                <a href="https://wa.me/5511981147227" target="_blank">
+                                    <i class="fa-brands fa-whatsapp fa-3x icones"></i>
+                                </a>
+                
+                                   <a href="mailto:comercial@maktubconsulting.com.br"> <i class="fa-solid fa-square-envelope fa-3x icones"></i></a>
                         </div>
-
-
-                        <div class="row margenscel">
-                                <a href=""></a><i class="fa-brands fa-whatsapp fa-3x icones"></i>
-                            </div>
-                            
-                            <div class="row margenscel">
-                                <div class="col-md-1 col-sm-1">
-                                   <a href="mailto:leonardo-r-castellano@outlook.com"> <i class="fa-solid fa-square-envelope fa-3x icones"></i></a>
-                                </div>
-                                <div class="col-md-1 col-sm-1">
-                                    <h2 class="textMinor"> comercial@maktubconsulting.com.br</h2>
-                                </div>
-    
-
-
                         </div>
-
-                        </div>
-                        
-                        <div class="row">
                             <a href="Politica de privacidade.html" target="_blank" ; class="policycel"> POLÍTICA DE PRIVACIDADE</a>
-                        </div> 
                     </div>
                 </div>
             </div>
