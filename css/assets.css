@@ -117,11 +117,11 @@ display:flex
 }
 
 .Policycel {
-  font-size: 19px;
+  font-size: 18px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
- 
   text-align: center;
+  margin-left: 2%;
 }
 
 .About {
@@ -173,7 +173,7 @@ display:flex
 
 
 .card-text {
-  text-align: justify;
+  text-align: start;
   
 }
 
@@ -186,9 +186,10 @@ display:flex
 }
 
 .aspx {
-font-size: 1.3rem;
+font-size: 1.2rem;
 margin-left: 0;
 font-weight: 500;
+text-align: center;
 }
 
 .cards {
@@ -269,6 +270,7 @@ width: 5%;
 
 .margin {
   width: 80%;
+
 }
 
 .marginTop {
@@ -332,7 +334,7 @@ width: 5%;
   background-color: rgba(58, 58, 58, 0.1);
   color: aliceblue;
   background-repeat: no-repeat;
-  height: 30%;
+  height: 22%;
   
 }
 
@@ -408,7 +410,7 @@ width: 5%;
     }
   
     nav ul li {
-      padding: 10px;
+
       text-align: center;
     }
   
@@ -438,6 +440,7 @@ width: 5%;
     .margin {
       margin-top: 10%;
       align-items: center;
+      margin-left: 9%;
     }
   
     .bussines {
@@ -473,7 +476,7 @@ width: 5%;
     }
   
     .imgPartners {
-      max-width: 80%;
+      max-width: 92%;
     }
   
 }
