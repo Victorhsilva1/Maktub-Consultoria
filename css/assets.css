@@ -346,10 +346,9 @@ body {
 .uscel {
   background-size: 100% 90%;
  background-color: #2bb673;
-  background-color: transparent; /* Remova temporariamente para teste */
   color: aliceblue;
   background-repeat: no-repeat;
-  height: 19%; /* Certifique-se de que o contêiner pai tenha altura definida */
+  height: 19%; /
 }
 
 
@@ -393,6 +392,9 @@ body {
 
 
 @media (max-width: 1080px) {
+  .uscel {
+    display: flex;
+  }
   .Nave {
     display: none;
   }
