@@ -138,9 +138,9 @@ section {
 }
 
 .About {
-  font-size: 55px;
+  font-size: 58px;
   color: azure;
-  font-family: fantasy;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin-top: 30px;
 
@@ -154,7 +154,7 @@ section {
 .Service {
   font-size: 55px;
   color: azure;
-  font-family: fantasy;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -163,7 +163,7 @@ section {
 .meet {
   font-size: 55px;
   color: azure;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin-top: 50px;
 }
@@ -357,9 +357,9 @@ body {
 }
 
 .jumba {
-  font-size: 64px;
+  font-size: 58px;
   color: azure;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin-right: 37%;
   margin-top: 10px
@@ -368,7 +368,7 @@ body {
 .jumbacrl {
   font-size: 58px;
   color: azure;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin-top: 50px
 }
